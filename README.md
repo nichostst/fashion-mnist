@@ -1,3 +1,5 @@
+Learn to use PyTorch with an actual example, whoop!
+
 # Colab Notebook
 
 [Link to Colab Notebook](https://colab.research.google.com/drive/1lh6QDjsKYFrXO2l3tRfW8qW0Z2WfCtj7)
