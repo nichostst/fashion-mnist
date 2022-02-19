@@ -22,7 +22,7 @@ The best models will be **automatically saved**, and the training can be chosen 
 
 # Results
 
-With the current setup, accuracy of a single model **consistently beat 91.3%** on the test set. With some luck in the initialization, it may reach close to 92%. In comparison to 92% accuracy from ResNet18 more than 10 times its size [as tested by Kyriakos Efthymiadis](https://github.com/kefth/fashion-mnist), it is indeed an admirable result and efficient training for such a small network. With ensemble of similar models of even, the same architecture, we can reach better accuracy. This, in PyTorch API is a simple population of saved parameters from multiple trained models onto the network. However, I decided not to do so as to keep the submission quick and simple.
+With the current setup, accuracy of a single model **consistently beat 91.3%** on the test set. With some luck in the initialization, it may reach close to 92%. In comparison to 92% accuracy from ResNet18 more than 10 times its size [as tested by Kyriakos Efthymiadis](https://github.com/kefth/fashion-mnist), it is indeed an admirable result and efficient training for such a small network. With ensemble of similar models of even, the same architecture, we can reach better accuracy. This, in PyTorch API is a simple population of saved parameters from multiple trained models onto the network. However, I decided not to do so as to keep it quick and simple.
 
 # Utilities
 
